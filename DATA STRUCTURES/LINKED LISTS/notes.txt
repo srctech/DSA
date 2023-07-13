@@ -1,0 +1,12 @@
+linked lists:
+1. It is a linear data structure
+2. In many places is arrays are replaced by linked lists.
+
+How does it works?
+1. It is  a collection of nodes
+2. A node a object which contains two components. one is for data and other is for address.
+3. Here, every node has a address and it is stored in other node's address pointer. 
+   This makes nodes to link one another.
+4. In linked lists nodes are not in continous memory location like arrays.
+
+
