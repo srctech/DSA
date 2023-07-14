@@ -8,5 +8,10 @@ How does it works?
 3. Here, every node has a address and it is stored in other node's address pointer. 
    This makes nodes to link one another.
 4. In linked lists nodes are not in continous memory location like arrays.
+5. The node is called "Head" and the last node is called "Tail".
+
+
+why should we use linked list, if we have an array as array is doing all the work?!
+
 
 
