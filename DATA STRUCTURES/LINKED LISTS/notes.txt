@@ -5,13 +5,20 @@ linked lists:
 How does it works?
 1. It is  a collection of nodes
 2. A node a object which contains two components. one is for data and other is for address.
-3. Here, every node has a address and it is stored in other node's address pointer. 
-   This makes nodes to link one another.
-4. In linked lists nodes are not in continous memory location like arrays.
-5. The node is called "Head" and the last node is called "Tail".
-
+   data : it can be string or integer or float or could be anything.
+   address : it stores next 'node' address.This makes nodes to link one another.
+3. In linked lists nodes are not in continous memory location like arrays.
+4. The node is called "Head" and the last node is called "Tail".
+   The address portion of tail is null.
 
 why should we use linked list, if we have an array as array is doing all the work?!
+1. in array if we have to insert an element, we have to shift all the existing elements in the array.
+2. the same happens for the deletion operation.
+3. In array, the 'insert' and 'delete' operations collectively called 'write' operation.
+4. when ever we perform 'write' operation the time complexity is O(n).
+   if the size of array increases, the time of operation increases.
+   This applies to double array-time'll be double and triple array-time'll be tripled.
+
 
 
 
